@@ -1,6 +1,6 @@
 # CDTNCA
 Repository for our <b>ICIP 2021</b> paper, titled [Cyclic Diffeomorphic Transformer Nets for Contour Alignment](https://ieeexplore.ieee.org/abstract/document/9506570) co-authored by: Ilya Kaufman, Ron Shapira Weber and Oren Freifeld.
-<img src="/figures/intro.pdf" alt="CDTNCA alignmnet.">
+<img src="/figures/intro.png" alt="CDTNCA alignmnet.">
 ## Model Architecture
 <img src="/figures/model.png" alt="CDTNCA architecture.">
 ## Author of this software 
@@ -23,7 +23,7 @@ python alignment.py [args]
 ```
 * tess_size: list, with the number of cells in each dimension
 * zero_boundary: bool, determines if the velocity at the boundary is zero 
-* circularity: bool, allows fro circular warps
+* circularity: bool, allows for circular warps
 
 ## References
 ```
