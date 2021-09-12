@@ -3,6 +3,7 @@ Repository for our <b>ICIP 2021</b> paper, titled [Cyclic Diffeomorphic Transfor
 <img src="/figures/intro.png" alt="CDTNCA alignmnet.">
 ## Model Architecture
 <img src="/figures/model.png" alt="CDTNCA architecture.">
+
 ### libcpab
 licpab [2] is a python package supporting the CPAB transformations [1] in Numpy, Tensorflow and Pytorch.
 Our code uses a modified version of libcpab which allows for circular warps.
