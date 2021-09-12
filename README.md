@@ -3,6 +3,10 @@ Repository for our <b>ICIP 2021</b> paper, titled [Cyclic Diffeomorphic Transfor
 <img src="/figures/intro.png" alt="CDTNCA alignmnet.">
 ## Model Architecture
 <img src="/figures/model.png" alt="CDTNCA architecture.">
+### libcpab
+licpab [2] is a python package supporting the CPAB transformations [1] in Numpy, Tensorflow and Pytorch.
+Our code uses a modified version of libcpab which allows for circular warps.
+<img src="/figures/warps.png" alt="Warp with different constraints.">
 ## Author of this software 
 Ilya Kafuman (email: ilyakau@post.bgu.ac.il)
 
@@ -11,10 +15,6 @@ Ilya Kafuman (email: ilyakau@post.bgu.ac.il)
 - PyTorch >= 1.4
 - For Nvidia GPU iimplementation: CUDA==11.0 + appropriate cuDNN as well. You can follow the instructions [here](https://pytorch.org/get-started/locally/).
 
-### libcpab
-licpab [2] is a python package supporting the CPAB transformations [1] in Numpy, Tensorflow and Pytorch.
-Our code uses a modified version of libcpab which allows for circular warps.
-<img src="/figures/warps.png" alt="Warp with different constraints.">
 ### Usage
 Alignment of shapes generated from the 2D Shape Structure dataset [3]
 
