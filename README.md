@@ -39,7 +39,7 @@ $ virtualenv -p python3 <your_home_dir>/.virtualenvs/CDTNCA
 Activate virtual environment:
 ```
 $ cd CDTNCA
-$ source <your_home_dir>/CDTNCA/bin/activate
+$ source <your_home_dir>/.virtualenvs/CDTNCA/bin/activate
 ```
 
 The requirements can be installed using:
