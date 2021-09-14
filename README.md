@@ -16,6 +16,37 @@ Ilya Kafuman (email: ilyakau@post.bgu.ac.il)
 - PyTorch >= 1.4
 - For Nvidia GPU iimplementation: CUDA==11.0 + appropriate cuDNN as well. You can follow the instructions [here](https://pytorch.org/get-started/locally/).
 
+# Installation
+
+The code uses Python 3.6 and it was tested on Pytorch 1.9.0
+
+Install pip and virtualenv
+```
+sudo apt-get install python-pip python-virtualenv
+```
+
+Clone the git project:
+```
+$ git clone https://github.com/BGU-CS-VIL/CDTNCA.git
+```
+
+Set up virtual environment:
+```
+$ mkdir <your_home_dir>/.virtualenvs
+$ virtualenv -p python3 <your_home_dir>/.virtualenvs/CDTNCA
+```
+
+Activate virtual environment:
+```
+$ cd CDTNCA
+$ source <your_home_dir>/CDTNCA/bin/activate
+```
+
+The requirements can be installed using:
+```
+pip install -r requirements.txt
+```
+
 ### Usage
 Alignment of a subset of shapes generated from the 2D Shape Structure dataset [3].
 For the entire archive, please visit:
