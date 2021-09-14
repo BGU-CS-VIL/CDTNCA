@@ -17,7 +17,9 @@ Ilya Kafuman (email: ilyakau@post.bgu.ac.il)
 - For Nvidia GPU iimplementation: CUDA==11.0 + appropriate cuDNN as well. You can follow the instructions [here](https://pytorch.org/get-started/locally/).
 
 ### Usage
-Alignment of shapes generated from the 2D Shape Structure dataset [3]
+Alignment of a subset of shapes generated from the 2D Shape Structure dataset [3].
+For the entire archive, please visit:
+[http://2dshapesstructure.github.io/](http://2dshapesstructure.github.io/)
 
 ```
 python alignment.py [args]
@@ -54,9 +56,6 @@ python alignment.py [args]
   publisher={Elsevier}
 }
 ```
-## Versions:
-
-
 ## License
 This software is released under the MIT License (included with the software). Note, however, that if you are using this code (and/or the results of running it) to support any form of publication (e.g., a book, a journal paper, a conference paper, a patent application, etc.) then we request you will cite our paper:
 ```
