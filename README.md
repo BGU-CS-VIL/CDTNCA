@@ -27,7 +27,7 @@ sudo apt-get install python-pip python-virtualenv
 
 Clone the git project:
 ```
-$ git clone https://github.com/BGU-CS-VIL/CDTNCA.git
+$ git clone git@github.com:BGU-CS-VIL/CDTNCA.git
 ```
 
 Set up virtual environment:
